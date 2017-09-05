@@ -1,0 +1,13 @@
+#tags_blog_block_left .block_content a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 9px 24px 6px 24px;
+  color: #011a67;
+  border: 1px solid #011a67;
+  float: left;
+  margin: 0 11px 13px 0;
+  border-radius: 3px; }
+  #tags_blog_block_left .block_content a:hover {
+    background: #011a67;
+    color: white; }

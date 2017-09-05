@@ -1,0 +1,100 @@
+/**
+* 2002-2015 TemplateMonster
+*
+* TemplateMonster Deal of Day
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the General Public License (GPL 2.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/GPL-2.0
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade the module to newer
+* versions in the future.
+*
+*  @author    TemplateMonster (Sergiy Sakun)
+*  @copyright 2002-2016 TemplateMonster
+*  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+*/
+.daydeal-box {
+  padding: 5px;
+  color: white;
+  text-align: left; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .daydeal-box {
+      font-size: 14px; } }
+  @media (max-width: 767px) {
+    .daydeal-box {
+      font-size: 12px; }
+      .daydeal-box > div > span:last-child {
+        display: none; } }
+
+.daydeal-box h3,
+.daydeal-box-product h3 {
+  color: red; }
+
+#daydeal-products .label-daydeal {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: inline-block;
+  padding: 5px 12px;
+  background: #FF0; }
+
+.daydeal-box-product {
+  padding: 0;
+  color: #1d1d1d; }
+
+.daydeal-box-product.act {
+  display: none; }
+
+.daydeal-box-product > div > span > span,
+.daydeal-box > div > span > span {
+  display: block;
+  font-weight: 900;
+  line-height: 1; }
+
+.daydeal-box-product > div > span,
+.daydeal-box > div > span {
+  display: inline-block;
+  line-height: 1.4;
+  font-family: "Hind", "Open Sans", sans-serif; }
+  .daydeal-box-product > div > span + span,
+  .daydeal-box > div > span + span {
+    position: relative;
+    padding-left: 20px;
+    margin-left: 18px; }
+    .daydeal-box-product > div > span + span:before,
+    .daydeal-box > div > span + span:before {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 3px;
+      content: ':';
+      font-weight: 700;
+      letter-spacing: 0.1em; }
+
+.product-container .daydeal-box {
+  background: rgba(176, 70, 197, 0.6); }
+.product-container .daydeal-box-product > div > span,
+.product-container .daydeal-box > div > span {
+  display: block;
+  line-height: 1.2; }
+  .product-container .daydeal-box-product > div > span + span,
+  .product-container .daydeal-box > div > span + span {
+    padding-left: 0;
+    margin-left: 0; }
+    .product-container .daydeal-box-product > div > span + span:before,
+    .product-container .daydeal-box > div > span + span:before {
+      position: static;
+      content: '..';
+      font-weight: 900;
+      margin: 0 0 5px; }
+      @media (min-width: 1200px) {
+        .product-container .daydeal-box-product > div > span + span:before,
+        .product-container .daydeal-box > div > span + span:before {
+          margin-top: 3px;
+          margin-bottom: 13px; } }

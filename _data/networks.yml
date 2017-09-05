@@ -1,0 +1,20 @@
+-
+  name: Facebook
+  href: 'https://www.facebook.com/torresgaleria'
+  class: 'fa fa-facebook'
+-
+  name: Instagram
+  href: ''
+  class: 'fa fa-instagram'
+-
+  name: Twitter
+  href: ''
+  class: 'fa fa-twitter'
+-
+  name: Linkedin
+  href: ''
+  class: 'fa fa-linkedin'
+- 
+  name: Pinterest
+  href: ''
+  class: 'fa fa-pinterest'

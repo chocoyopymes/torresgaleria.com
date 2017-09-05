@@ -1,0 +1,24 @@
+-
+  name: Inicio
+  href: '/'
+-
+  name: Técnicas
+  href: '/tecnicas/'
+-
+  name: Arte y estilo
+  href: '/arte_y_estilo'
+-
+  name: Disponibilidad
+  href: '/disponibilidad'
+-
+  name: Artistas
+  href: '/artistas/'
+-
+  name: Especiales
+  href: '/especiales'
+-
+  name: Nosotros
+  href: '/nosotros/'
+-
+  name: Contáctenos
+  href: '/contacto/'

@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "BARCOS"
+tec: OLEO
+style: ABSTRACTO
+author: CAMILO MEDINA
+permalink: /obras/barcos
+image: /assets/img/010.jpg
+---
+
+![](/assets/img/010.jpg){: width="100%" height="auto"}
+

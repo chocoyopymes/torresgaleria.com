@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "EL PAYASITO"
+tec: ACRILICO
+style: ABSTRACTO
+author: MARIA FERNANDA VOGEL
+permalink: /obras/el_payasito
+image: /assets/img/002.jpg
+---
+
+![](/assets/img/002.jpg){: width="100%" height="auto"}
+

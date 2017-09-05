@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "TUGURIOS EN ROJO"
+tec: ACRILICO
+style: ABSTRACTO
+author: MARIA FERNANDA VOGEL
+permalink: /obras/tugurios_rojo
+image: /assets/img/006.jpg
+---
+
+![](/assets/img/006.jpg){: width="100%" height="auto"}
+

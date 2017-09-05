@@ -1,0 +1,53 @@
+--- 
+title: Contáctenos 
+layout: page 
+permalink: "/contacto/" 
+---
+
+<div class="large-left col-sm-12">
+  <div class="row">
+    <div id="center_column" class="center_column col-xs-12 col-sm-12 accordionBox">
+
+
+      <h1 class="page-heading bottom-indent">
+       {{ page.title }}</h1>
+
+        {% include map.html %}
+
+
+      <form action="/prestashop_62011/index.php?controller=contact" method="post" class="contact-form-box" enctype="multipart/form-data">
+        <fieldset>
+          <h3 class="page-subheading">send a message</h3>
+          <div class="clearfix">
+            <div class="col-xs-12 col-md-3">
+              <p class="form-group">
+                <label for="email">Email address</label>
+                <input class="form-control grey validate" type="text" id="email" name="from" data-validate="isEmail" value="">
+              </p>
+              <div class="form-group selector1">
+                <label>Order reference</label>
+                <input class="form-control grey" type="text" name="id_order" id="id_order" value="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9">
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message"></textarea>
+              </div>
+            </div>
+          </div>
+           <div class="submit">
+            <button type="submit" name="submitMessage" id="submitMessage" class="btn btn-default btn-sm">
+              <span>
+               Send
+               <i class="fa fa-chevron-right right"></i>
+              </span>
+           </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!-- #center_column -->
+  </div>
+  <!--.large-left-->
+</div>

@@ -1,0 +1,84 @@
+    <div class="header-container">
+      <header id="header">
+
+        <div class="wrapper it_VKEBMOATNRCD container nav">
+         
+        
+        <div class="row it_YQSOGWWTYIZO full-width border-top border-bottom">
+          <div class="it_YWQHLHHLMYBX    col-lg-12 container text-center">
+            <div id="header_logo">
+              <a href="index.html" title="ArtWorker">
+               <img class="logo img-responsive" src="{{ site.html }}/assets/img/logo.jpg" alt="ArtWorker" width="280" height="47"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper it_OHBJNXUHIHVM container">
+          <div class="row it_SNRYYSQZVFQH stick-up">
+            <div class="it_GXIAVOHOVEFE col-xs-12  col-md-9  position-static">
+              <div class="module ">
+
+                <div class="top_menu top-level tmmegamenu_item">
+                  <div class="menu-title tmmegamenu_item">Menu</div>
+                  <ul class="menu clearfix top-level-menu tmmegamenu_item">
+                      <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/">Inicio</a></li>
+                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/tecnicas">Técnicas</a>
+                      <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
+                        {% for technique in site.data.techniques %}
+                        <li class="category"><a href="{{ technique.href }}" title="{{ technique.name }}">{{ technique.name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                     <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/arte_y_estilo/">Arte y estilo</a>
+                      <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
+                        {% for art_style in site.data.art_styles %}
+                        <li class="category"><a href="{{ art_style.href }}" title="{{ art_style.name }}">{{ art_style.name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                    <li class=" simple top-level-menu-li tmmegamenu_item it_91203835"><a class="it_91203835 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/artistas/">Artistas</a>
+                      <ul class="is-simplemenu tmmegamenu_item first-level-menu it_91203835">
+                         {% for artist in site.data.artists %}
+                          <li class="manufacturer">
+                             <a href="{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>                 
+                          </li>
+                        {% endfor %}  
+                      </ul>
+
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/">Disponibilidad</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/nosotros/">Nosotros</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/contacto/">Contacto</a></li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="it_UJXXZTVMBLSI col-xs-12  col-md-3  ">
+              <div class="module ">
+                <div id="tmhtmlcontent_top">
+                  <ul class="tmhtmlcontent-top clearfix row">
+                    <li class="tmhtmlcontent-item-1 social-info">
+                      <div class="item-html">
+                        <ul>
+                          {% for net in site.data.networks%}
+                          <li><a href="{{ net.href }}" class="{{ net.class}}"></a></li>
+                         {% endfor %}
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row it_FLNIIJKLKWWM ">
+          <div class="it_FYPAKHIAZDHS col-xs-12    ">
+            <div class="module "></div>
+            <div class="module "></div>
+          </div>
+        </div>
+     
+
+      </header>
+    </div>

@@ -1,0 +1,10 @@
+- name: 'Producto 1'
+  image: '/assets/img/001.jpg'
+  href: ''
+  desc: 'Alguna descripción'
+  tag: promo
+- name: 'Producto 2'
+  image: '/assets/img/002.jpg'
+  href: ''
+  desc: 'Alguna descripción'
+  tag: promo

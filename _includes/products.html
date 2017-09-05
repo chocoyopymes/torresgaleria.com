@@ -1,0 +1,195 @@
+<div class="container">
+    <div class="row">
+        <div class="large-left col-sm-12">
+            <div class="row">
+                <div id="center_column" class="center_column col-xs-12 col-sm-12">
+
+                    <div class="home-tabs">
+                        <span id="home-tabs-title"></span>
+                        <ul id="home-page-tabs" class="nav nav-tabs clearfix">
+                            <li class="homefeatured">
+                                <a data-toggle="tab" href="#homefeatured" class="homefeatured">Detalles</a>
+                            </li>
+                            <li class="blocknewproducts">
+                                <a data-toggle="tab" href="#blocknewproducts" class="blocknewproducts">Arte peruana</a>
+                            </li>
+                            <li class="blockspecials">
+                                <a data-toggle="tab" href="#blockspecials" class="blockspecials">Artesanía</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+
+                            <!-- Products list -->
+                            <ul id="homefeatured" class="product_list grid row homefeatured tab-pane">
+
+                                {% for product in site.data.products %}
+                                <li class="ajax_block_product col-xs-6 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+                                    <div>
+                                        <div class="product-container" itemscope itemtype="https://schema.org/Product">
+                                            <div class="left-block">
+                                                <div class="product-image-container">
+                                                    <a class="product_img_link" href="{{ product.href }}" title="{{ product.name }}" itemprop="url">
+                                                       <img class="replace-2x img-responsive" src="{{ product.image}}" alt="{{ product.name}}" title="{{ product.name }}" width="500" height="500" itemprop="image" />
+                                                    </a>
+                                                    <div class="product-labels">
+                                                        <a class="sale-box" href="">
+                                                          <span class="sale-label">Promocion!</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="right-block">
+                                                <div>
+                                                    <div class="product-flags">
+                                                    </div>
+                                                    <h5 itemprop="name">
+                                                        <a class="product-name" href="{{ product.href }}" title="The Peasr Henri Fantin-Latour Classic Art Reproductions" itemprop="url">
+                                                        <span class="grid-name">{{ product.name}}</span>
+                                                        </a>
+                                                    </h5>
+                                                    <p class="product-desc" itemprop="description">
+                                                        <span class="grid-desc">{{ product.desc | truncatewords: 300}}</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .product-container> -->
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            <!-- Products list -->
+                            <ul id="blocknewproducts" class="product_list grid row blocknewproducts tab-pane">
+
+                                <ul>
+                                    {% for post in site.posts %}
+
+                                      <li class="ajax_block_product col-xs-6 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+                                        <div>
+                                            <div class="product-container" itemscope itemtype="https://schema.org/Product">
+                                                <div class="left-block">
+                                                    <div class="product-image-container">
+                                                        <a class="product_img_link" href="{{ post.url }}" title="{{ post.title }}" itemprop="url">
+                                                           <img class="replace-2x img-responsive" src="{{ post.image }}" alt="{{ product.name}}" title="{{ product.name }}" width="500" height="500" itemprop="image" />
+                                                        </a>
+                                                        <div class="product-labels">
+                                                            <a class="new-box" href="">
+                                                                 <span class="new-label">Nuevo</span>
+                                                               </a>
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                                <div class="right-block">
+                                                    <div>
+                                                        <div class="product-flags">
+                                                        </div>
+                                                        <h5 itemprop="name">
+                                                            <a class="product-name" href="{{ post.url }}" title="The Peasr Henri Fantin-Latour Classic Art Reproductions" itemprop="url">
+                                                            <span class="grid-name">{{ post.title }}</span>
+                                                            </a>
+                                                        </h5>
+                                                        <p class="product-desc" itemprop="description">
+                                                            <span class="grid-desc">{{ product.desc | truncatewords: 300}}</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- .product-container> -->
+                                        </div>
+                                    </li>
+                                    {% endfor %}
+                                  </ul>
+                                {% for product in site.data.products %}
+                                <li class="ajax_block_product col-xs-6 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+                                    <div>
+                                        <div class="product-container" itemscope itemtype="https://schema.org/Product">
+                                            <div class="left-block">
+                                                <div class="product-image-container">
+                                                    <a class="product_img_link" href="{{ product.href }}" title="{{ product.name }}" itemprop="url">
+                                                       <img class="replace-2x img-responsive" src="{{ product.image}}" alt="{{ product.name}}" title="{{ product.name }}" width="500" height="500" itemprop="image" />
+                                                    </a>
+                                                    <div class="product-labels">
+                                                        <a class="new-box" href="indexbffb.html?id_product=28&amp;controller=product&amp;id_lang=5">
+                                                             <span class="new-label">Nuevo</span>
+                                                           </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="right-block">
+                                                <div>
+                                                    <div class="product-flags">
+                                                    </div>
+                                                    <h5 itemprop="name">
+                                                        <a class="product-name" href="{{ product.href }}" title="The Peasr Henri Fantin-Latour Classic Art Reproductions" itemprop="url">
+                                                        <span class="grid-name">{{ product.name}}</span>
+                                                        </a>
+                                                    </h5>
+                                                    <p class="product-desc" itemprop="description">
+                                                        <span class="grid-desc">{{ product.desc | truncatewords: 300}}</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .product-container> -->
+                                    </div>
+                                </li>
+                                {% endfor %}
+
+                            </ul>
+                            <!-- Products list -->
+                            <ul id="blockbestsellers" class="product_list grid row blockbestsellers tab-pane">
+                                {% for product in site.data.products %}
+                                <li class="ajax_block_product col-xs-6 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
+                                    <div>
+                                        <div class="product-container" itemscope itemtype="https://schema.org/Product">
+                                            <div class="left-block">
+                                                <div class="product-image-container">
+                                                    <a class="product_img_link" href="{{ product.href }}" title="{{ product.name }}" itemprop="url">
+                                                       <img class="replace-2x img-responsive" src="{{ product.image}}" alt="{{ product.name}}" title="{{ product.name }}" width="500" height="500" itemprop="image" />
+                                                    </a>
+                                                    <div class="product-labels">
+                                                        <a class="new-box" href="indexbffb.html?id_product=28&amp;controller=product&amp;id_lang=5">
+                                                             <span class="new-label">Nuevo</span>
+                                                           </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="right-block">
+                                                <div>
+                                                    <div class="product-flags">
+                                                    </div>
+                                                    <h5 itemprop="name">
+                                                        <a class="product-name" href="{{ product.href }}" title="The Peasr Henri Fantin-Latour Classic Art Reproductions" itemprop="url">
+                                                        <span class="grid-name">{{ product.name}}</span>
+                                                        </a>
+                                                    </h5>
+                                                    <p class="product-desc" itemprop="description">
+                                                        <span class="grid-desc">{{ product.desc | truncatewords: 300}}</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .product-container> -->
+                                    </div>
+                                </li>
+                                {% endfor %}
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- #center_column -->
+            </div>
+            <!--.large-left-->
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .row -->
+</div>
+<!-- .container -->
+</div>
+<!-- #columns -->

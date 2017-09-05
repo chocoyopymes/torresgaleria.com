@@ -1,0 +1,15 @@
+- name: 'Trabajador 1'
+  image: 'http://via.placeholder.com/270x270'
+  title: 'Algo de tu trabajo en Torres galeria'
+
+- name: 'Trabajador 2'
+  image: 'http://via.placeholder.com/270x270'
+  title: 'Algo de tu trabajo en Torres galeria'
+
+- name: 'Trabajador 3'
+  image: 'http://via.placeholder.com/270x270'
+  title: 'Algo de tu trabajo en Torres galeria'
+
+- name: 'Trabajador 4'
+  image: 'http://via.placeholder.com/270x270'
+  title: 'Algo de tu trabajo en Torres galeria'

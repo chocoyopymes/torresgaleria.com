@@ -1,0 +1,295 @@
+/*
+* @package      Style for TM Header Account Block
+* @description  This section holds specific style redeclarations for
+*               TM Header Account Block
+*/
+#header-login {
+  position: relative; }
+  @media (min-width: 1200px) {
+    #header-login {
+      float: right;
+      padding: 26px 20px 16px 0; } }
+  @media (max-width: 1199px) {
+    #header-login div.current {
+      display: inline-block;
+      position: relative;
+      z-index: 1; } }
+  #header-login div.current a {
+    color: #1d1d1d; }
+    #header-login div.current a:hover {
+      color: #17c2cd; }
+  #header-login div.current.active a {
+    color: #17c2cd; }
+  #header-login .header-login-content {
+    display: none; }
+    @media (min-width: 1200px) {
+      #header-login .header-login-content {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 2;
+        margin-top: 1px; } }
+    @media (max-width: 1199px) {
+      #header-login .header-login-content {
+        position: relative; }
+        #header-login .header-login-content:before {
+          display: block;
+          content: '';
+          position: absolute;
+          height: 75px;
+          left: 0;
+          right: 0;
+          top: -75px; } }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #header-login .header-login-content {
+        margin: 20px 0 40px; } }
+    #header-login .header-login-content #create_header_account_error {
+      padding: 8px; }
+
+/*
+* @section      Style for login wrapper
+* @description  This section holds specific style redeclarations for
+*               login content wrapper
+*/
+.header-login-content {
+  margin: 20px 0 40px;
+  background: white; }
+  @media (min-width: 1200px) {
+    .header-login-content {
+      margin: 0;
+      padding: 34px 40px;
+      -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+      -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25); } }
+  .header-login-content h3 {
+    margin-bottom: 18px; }
+    @media (max-width: 1199px) {
+      .header-login-content h3 {
+        display: none; } }
+  .header-login-content .btn {
+    width: 100%; }
+  .header-login-content li {
+    margin: 0;
+    padding: 0; }
+    .header-login-content li.user-data {
+      overflow: hidden; }
+      .header-login-content li.user-data img {
+        float: left;
+        margin-bottom: 18px;
+        margin-right: 20px; }
+      .header-login-content li.user-data p span {
+        display: block;
+        white-space: nowrap; }
+    .header-login-content li ul {
+      margin: 0 0 23px; }
+      .header-login-content li ul li {
+        display: block;
+        overflow: hidden; }
+        .header-login-content li ul li a i {
+          display: none; }
+        .header-login-content li ul li + li {
+          margin-top: 6px; }
+    .header-login-content li.onecolumn {
+      min-width: 210px; }
+    .header-login-content li.twocolumns {
+      min-width: 405px; }
+      .header-login-content li.twocolumns > ul {
+        width: 50%;
+        float: left; }
+    .header-login-content li input[type="checkbox"] + label:hover, .header-login-content li input[type="checkbox"] + .label label:hover, .header-login-content li input[type="radio"] + label:hover, .header-login-content li input[type="radio"] + .label label:hover {
+      color: #17c2cd; }
+  .header-login-content:not(.is-logged) > li {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .header-login-content:not(.is-logged) > li {
+        width: 290px; } }
+  .header-login-content img {
+    max-width: 100%; }
+  .header-login-content .form-group {
+    margin-bottom: 15px; }
+    .header-login-content .form-group label sup {
+      color: #f13340; }
+    .header-login-content .form-group .form_info {
+      color: #f13340;
+      font-size: 14px; }
+  .header-login-content p {
+    margin-bottom: 15px; }
+    .header-login-content p.submit {
+      padding-top: 5px; }
+    .header-login-content p.logout {
+      margin: 0 0 10px;
+      overflow: hidden;
+      clear: both; }
+  .header-login-content .create-account-content .row {
+    margin: 0 -3px; }
+    .header-login-content .create-account-content .row > div {
+      padding: 0 3px; }
+  .header-login-content .create-account-content .selector {
+    min-width: 100%;
+    padding-left: 7px; }
+    .header-login-content .create-account-content .selector span {
+      min-width: 100%;
+      padding-right: 18px; }
+      @media (max-width: 1199px) {
+        .header-login-content .create-account-content .selector span {
+          font-size: 14px; } }
+      .header-login-content .create-account-content .selector span:after {
+        width: 25px; }
+  .header-login-content .create-account-content .social-login-buttons div {
+    margin-bottom: 15px; }
+    .header-login-content .create-account-content .social-login-buttons div.one-element .btn {
+      margin-left: 0;
+      font-size: 12px;
+      line-height: 1.1; }
+      .header-login-content .create-account-content .social-login-buttons div.one-element .btn span {
+        margin: 0; }
+      .header-login-content .create-account-content .social-login-buttons div.one-element .btn:before {
+        display: none; }
+  .header-login-content .forgot-password-content .signin i {
+    margin-right: 5px; }
+
+/*
+* @section      Style for social account
+*/
+.social-login-buttons {
+  margin: 0 -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .social-login-buttons div {
+    position: relative;
+    margin: 0;
+    padding: 0 15px;
+    float: left; }
+    .social-login-buttons div.one-element {
+      width: 100%; }
+    .social-login-buttons div.two-elements {
+      width: 50%; }
+    .social-login-buttons div.three-elements {
+      width: 33.33333%;
+      text-align: center;
+      margin-top: 10px; }
+      .social-login-buttons div.three-elements a:before {
+        position: static;
+        font-size: 22px;
+        margin-top: 3px;
+        color: inherit; }
+      .social-login-buttons div.three-elements a span {
+        display: none; }
+    .social-login-buttons div a {
+      display: inline-block;
+      position: relative;
+      color: #292929;
+      line-height: 1.1; }
+      .social-login-buttons div a:before {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        margin-top: -9px;
+        font: normal 18px/1 "FontAwesome";
+        color: #1d1d1d; }
+      .social-login-buttons div a:hover {
+        color: #17c2cd; }
+      .social-login-buttons div a.btn-login-facebook:before {
+        content: '\f09a'; }
+      .social-login-buttons div a.btn-login-google:before {
+        content: '\f1a0'; }
+      .social-login-buttons div a.btn-login-vk:before {
+        content: '\f189'; }
+      .social-login-buttons div a span {
+        display: inline-block;
+        padding-left: 20px;
+        padding-top: 3px; }
+    .social-login-buttons div + div {
+      border-left: 1px solid #bbbbbb; }
+
+.account_creation {
+  margin-top: 20px; }
+  .account_creation .radio-inline label {
+    font-weight: 400;
+    padding-top: 1px;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease; }
+  .account_creation > div:first-child {
+    margin-bottom: 15px; }
+    .account_creation > div:first-child > label {
+      font-weight: 600; }
+  .account_creation .form-group label {
+    font-weight: 600; }
+
+/*
+* @section      Style for left and right sidebars
+* @description  This section holds specific style redeclarations for
+*               left and right sidebars
+*/
+.tmha-sidebar-left, .tmha-sidebar-right {
+  background: #bbbbbb;
+  height: 100%;
+  position: fixed;
+  transition: all 0.3s ease;
+  top: 0;
+  z-index: 99999;
+  overflow: auto;
+  max-height: 100%; }
+
+.tmha-sidebar-left {
+  left: 0;
+  transform: translateX(-100%); }
+
+.tmha-sidebar-right {
+  right: 0;
+  transform: translateX(100%); }
+  .tmha-sidebar-right .tmha-close-btn {
+    right: auto;
+    left: 19px; }
+
+.tmha-sidebar-left.active {
+  left: 0;
+  transform: translateX(0); }
+
+.tmha-sidebar-right.active {
+  right: 0;
+  transform: translateX(0); }
+
+.tmha-close-btn {
+  position: absolute;
+  top: 15px;
+  right: 19px;
+  cursor: pointer;
+  display: block;
+  color: #b0b0b0;
+  outline: none !important;
+  transition: all 0.3s ease;
+  transform: scale(1); }
+  .tmha-close-btn:before {
+    font: normal 18px/1.1 "FontAwesome";
+    content: '\f00d'; }
+  .tmha-close-btn:hover {
+    color: #333; }
+
+/*
+* @section      Style for left and right columns
+* @description  This section holds specific style redeclarations for
+*               left and right columns
+*/
+#columns .header-login-content li.user-data p span {
+  display: inline-block; }
+#columns .header-login-content li.user-data img {
+  float: none; }
+#columns .header-login-content:not(.is-logged) li {
+  width: 100%; }
+#columns #center_column .social-login-buttons div {
+  margin-bottom: 10px; }
+  @media (min-width: 992px) {
+    #columns #center_column .social-login-buttons div .btn span {
+      display: inline-block;
+      font-size: 12px; } }
+  @media (min-width: 1200px) {
+    #columns #center_column .social-login-buttons div .btn span {
+      font-size: 13px; } }
+
+.fancybox-inner .header-login-content {
+  padding: 50px; }

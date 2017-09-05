@@ -1,0 +1,97 @@
+/**************************************************************************
+		        Style TM Manufacturer Block
+**************************************************************************/
+#tm_manufacturers_block {
+  padding: 70px 0 0; }
+  @media (min-width: 1200px) {
+    #tm_manufacturers_block {
+      padding-top: 134px; } }
+  @media (min-width: 1650px) {
+    #tm_manufacturers_block {
+      padding-right: 85px; } }
+  #tm_manufacturers_block h3 {
+    font: bold 42px/1.2 "Hind", "Open Sans", sans-serif;
+    margin: 0 0 48px;
+    color: #1d1d1d; }
+    @media (min-width: 480px) and (max-width: 767px) {
+      #tm_manufacturers_block h3 {
+        font-size: 36px;
+        margin-bottom: 30px; } }
+    @media (max-width: 479px) {
+      #tm_manufacturers_block h3 {
+        font-size: 30px;
+        margin-bottom: 20px; } }
+  #tm_manufacturers_block .manufacturers_items {
+    margin-bottom: 0;
+    margin-top: 0; }
+    #tm_manufacturers_block .manufacturers_items .manufacturer_item {
+      overflow: hidden;
+      *zoom: 1; }
+      @media (min-width: 480px) {
+        #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-img {
+          float: left;
+          width: 44.4%;
+          margin-bottom: 0;
+          margin-right: 25px; } }
+      #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-img > a {
+        display: block;
+        position: relative;
+        margin-bottom: 15px;
+        padding-bottom: 72.25%;
+        overflow: hidden; }
+        #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-img > a img {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0; }
+      @media (min-width: 768px) {
+        #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-body {
+          overflow: hidden; } }
+      #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-body .manufacturer-name {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.1;
+        color: #1d1d1d; }
+        #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-body .manufacturer-name:hover {
+          color: #17c2cd; }
+      #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-body .manufacturer-desc {
+        margin-top: 3px; }
+      #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-body .btn {
+        margin-top: 5px;
+        min-width: 136px; }
+        @media (min-width: 768px) {
+          #tm_manufacturers_block .manufacturers_items .manufacturer_item .manufacturer-body .btn {
+            margin-top: 18px; } }
+      #tm_manufacturers_block .manufacturers_items .manufacturer_item + .manufacturer_item {
+        margin-top: 47px; }
+  #tm_manufacturers_block .bx-wrapper .manufacturers_items {
+    margin: 0; }
+    #tm_manufacturers_block .bx-wrapper .manufacturers_items .manufacturer_item {
+      margin: 0; }
+  #tm_manufacturers_block .bx-wrapper .bx-controls .bx-pager .bx-pager-link.active, #tm_manufacturers_block .bx-wrapper .bx-controls .bx-pager .bx-pager-link:hover {
+    background: #777; }
+  #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a {
+    height: auto;
+    width: auto;
+    left: auto;
+    right: 30px; }
+    #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a:before {
+      color: #1d1d1d;
+      font-size: 40px;
+      -moz-transition: 0.3s all ease;
+      -o-transition: 0.3s all ease;
+      -webkit-transition: 0.3s all ease;
+      transition: 0.3s all ease; }
+    #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a:hover:before {
+      color: #17c2cd; }
+    #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+      top: -68px; }
+      #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev:before {
+        content: '\f106'; }
+    #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+      top: -45px; }
+      #tm_manufacturers_block .bx-wrapper .bx-controls .bx-controls-direction a.bx-next:before {
+        content: '\f107'; }
