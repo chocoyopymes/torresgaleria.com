@@ -5,8 +5,8 @@ tec: OLEO
 style: ABSTRACTO
 author: CAMILO MEDINA
 permalink: /obras/edificio_abstracto
-image: /assets/img/011.jpg
+image: /torresgaleria.com/assets/img/011.jpg
 ---
 
-![](/assets/img/011.jpg){: width="100%" height="auto"}
+![](/torresgaleria.com/assets/img/011.jpg){: width="100%" height="auto"}
 

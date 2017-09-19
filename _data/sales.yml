@@ -1,15 +1,15 @@
 - name: 'Oferta 1'
-  image: '/assets/img/001.jpg'
+  image: '/torresgaleria.com/assets/img/001.jpg'
   href: ''
   desc: '50% off en pinturas'
   tag: promo
 - name: 'Oferta 2'
-  image: '/assets/img/002.jpg'
+  image: '/torresgaleria.com/assets/img/002.jpg'
   href: ''
   desc: '2x1 en gifts'
   tag: promo
 - name: 'Oferta 3'
-  image: '/assets/img/002.jpg'
+  image: '/torresgaleria.com/assets/img/002.jpg'
   href: ''
   desc: 'Alguna descripción'
   tag: promo

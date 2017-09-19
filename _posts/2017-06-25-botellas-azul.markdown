@@ -5,8 +5,8 @@ tec: OLEO
 style: ABSTRACTO
 author: CAMILO MEDINA
 permalink: /obras/botellas_azul
-image: /assets/img/009.jpg
+image: /torresgaleria.com/assets/img/009.jpg
 ---
 
-![](/assets/img/009.jpg){: width="100%" height="auto"}
+![](/torresgaleria.com/assets/img/009.jpg){: width="100%" height="auto"}
 
