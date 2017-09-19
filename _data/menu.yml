@@ -6,19 +6,31 @@
   href: '/tecnicas/'
 -
   name: Arte y estilo
-  href: '/arte_y_estilo'
--
-  name: Disponibilidad
-  href: '/disponibilidad'
+  href: '/arte_y_estilo/'
 -
   name: Artistas
   href: '/artistas/'
 -
-  name: Especiales
-  href: '/especiales'
+  name: Disponibilidad
+  href: '/disponibilidad/'
+-
+  name: Detalles
+  href: '/detalles/'
+-
+  name: Arte Peruano
+  href: '/arte_peruanoo/'
+-
+  name: Esculturas
+  href: '/esculturas/'
+-
+  name: Eventos
+  href: '/eventos/'
 -
   name: Nosotros
   href: '/nosotros/'
 -
   name: Contáctenos
   href: '/contacto/'
+-
+  name: Servicios
+  href: '/servicios/'

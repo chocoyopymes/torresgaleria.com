@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "ABSTRACTO"
 tec: OLEO
 style: ABSTRACTO
@@ -9,4 +9,3 @@ image: /assets/img/007.jpg
 ---
 
 ![](/assets/img/007.jpg){: width="100%" height="auto"}
-

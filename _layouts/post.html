@@ -1,6 +1,14 @@
 ---
-layout: default
+layout: page
 ---
+<div class="post-content" itemprop="articleBody">
+<h2>{{ post.title}}</h2>
+<h3>{{ post.tec}}</h3>
+<h4>{{ post.author}}</h4>
+<p><img src="{{ post.image}}" alt="" width="100%" height="auto"></p>
+</div>
+
+<!--
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -23,3 +31,4 @@ layout: default
     {% include disqus_comments.html %}
   {% endif %}
 </article>
+-->

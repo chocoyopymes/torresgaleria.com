@@ -2,8 +2,8 @@
       <header id="header">
 
         <div class="wrapper it_VKEBMOATNRCD container nav">
-         
-        
+
+
         <div class="row it_YQSOGWWTYIZO full-width border-top border-bottom">
           <div class="it_YWQHLHHLMYBX    col-lg-12 container text-center">
             <div id="header_logo">
@@ -15,13 +15,12 @@
         </div>
         <div class="wrapper it_OHBJNXUHIHVM container">
           <div class="row it_SNRYYSQZVFQH stick-up">
-            <div class="it_GXIAVOHOVEFE col-xs-12  col-md-9  position-static">
+            <div class="it_GXIAVOHOVEFE  position-static">
               <div class="module ">
 
                 <div class="top_menu top-level tmmegamenu_item">
-                  <div class="menu-title tmmegamenu_item">Menu</div>
+                  <div class="menu-title tmmegamenu_item text-center">Menu</div>
                   <ul class="menu clearfix top-level-menu tmmegamenu_item">
-                      <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/">Inicio</a></li>
                       <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/tecnicas">Técnicas</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
                         {% for technique in site.data.techniques %}
@@ -40,12 +39,18 @@
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_91203835">
                          {% for artist in site.data.artists %}
                           <li class="manufacturer">
-                             <a href="{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>                 
+                             <a href="{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>
                           </li>
-                        {% endfor %}  
+                        {% endfor %}
                       </ul>
-
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/">Disponibilidad</a></li>
+                    </li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/artesanias/">Artesanias</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/arte_peruano/">Arte Peruano</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/detalles/">Detalles</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/esculturas/">Esculturas</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/">Eventos</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/contacto/">Servicios</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/disponibilidad/">Disponibilidad</a></li>
                     <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/nosotros/">Nosotros</a></li>
                     <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/contacto/">Contacto</a></li>
                   </ul>
@@ -53,23 +58,7 @@
                 </div>
               </div>
             </div>
-            <div class="it_UJXXZTVMBLSI col-xs-12  col-md-3  ">
-              <div class="module ">
-                <div id="tmhtmlcontent_top">
-                  <ul class="tmhtmlcontent-top clearfix row">
-                    <li class="tmhtmlcontent-item-1 social-info">
-                      <div class="item-html">
-                        <ul>
-                          {% for net in site.data.networks%}
-                          <li><a href="{{ net.href }}" class="{{ net.class}}"></a></li>
-                         {% endfor %}
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
         <div class="row it_FLNIIJKLKWWM ">
@@ -78,7 +67,7 @@
             <div class="module "></div>
           </div>
         </div>
-     
+
 
       </header>
     </div>
