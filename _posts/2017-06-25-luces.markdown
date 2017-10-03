@@ -5,8 +5,8 @@ tec: ACRILICO
 style: ABSTRACTO
 author: MARIA FERNANDA VOGEL
 permalink: /obras/luces_oscuros
-image: /torresgaleria.com/assets/img/003.jpg
+image: /assets/img/003.jpg
 ---
 
-![](/torresgaleria.com/assets/img/003.jpg){: width="100%" height="auto"}
+![](/assets/img/003.jpg){: width="100%" height="auto"}
 

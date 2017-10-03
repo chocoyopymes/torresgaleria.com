@@ -5,8 +5,8 @@ tec: OLEO
 style: ABSTRACTO
 author: CAMILO MEDINA
 permalink: /obras/caras_coloridas
-image: /torresgaleria.com/assets/img/012.jpg
+image: /assets/img/012.jpg
 ---
 
-![](/torresgaleria.com/assets/img/012.jpg){: width="100%" height="auto"}
+![](/assets/img/012.jpg){: width="100%" height="auto"}
 

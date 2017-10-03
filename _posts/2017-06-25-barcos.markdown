@@ -5,8 +5,8 @@ tec: OLEO
 style: ABSTRACTO
 author: CAMILO MEDINA
 permalink: /obras/barcos
-image: /torresgaleria.com/assets/img/010.jpg
+image: /assets/img/010.jpg
 ---
 
-![](/torresgaleria.com/assets/img/010.jpg){: width="100%" height="auto"}
+![](/assets/img/010.jpg){: width="100%" height="auto"}
 

@@ -5,8 +5,8 @@ tec: ACRILICO
 style: ABSTRACTO
 author: MARIA FERNANDA VOGEL
 permalink: /obras/tugurios_rojo
-image: /torresgaleria.com/assets/img/006.jpg
+image: /assets/img/006.jpg
 ---
 
-![](/torresgaleria.com/assets/img/006.jpg){: width="100%" height="auto"}
+![](/assets/img/006.jpg){: width="100%" height="auto"}
 

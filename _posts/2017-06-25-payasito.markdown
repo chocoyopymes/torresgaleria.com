@@ -5,8 +5,8 @@ tec: ACRILICO
 style: ABSTRACTO
 author: MARIA FERNANDA VOGEL
 permalink: /obras/el_payasito
-image: /torresgaleria.com/assets/img/002.jpg
+image: /assets/img/002.jpg
 ---
 
-![](/torresgaleria.com/assets/img/002.jpg){: width="100%" height="auto"}
+![](/assets/img/002.jpg){: width="100%" height="auto"}
 

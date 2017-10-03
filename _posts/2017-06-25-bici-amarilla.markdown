@@ -5,8 +5,8 @@ tec: OLEO
 style: ABSTRACTO
 author: CAMILO MEDINA
 permalink: /obras/bici_amarilla
-image: /torresgaleria.com/assets/img/008.jpg
+image: /assets/img/008.jpg
 ---
 
-![](/torresgaleria.com/assets/img/008.jpg){: width="100%" height="auto"}
+![](/assets/img/008.jpg){: width="100%" height="auto"}
 
