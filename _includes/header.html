@@ -24,14 +24,14 @@
                       <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/tecnicas">Técnicas</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
                         {% for technique in site.data.techniques %}
-                        <li class="category"><a href="{{ technique.href }}" title="{{ technique.name }}">{{ technique.name }}</a></li>
+                        <li class="category"><a href="/tecnicas{{ technique.href }}" title="{{ technique.name }}">{{ technique.name }}</a></li>
                         {% endfor %}
                       </ul>
                     </li>
                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/arte_y_estilo/">Arte y estilo</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
                         {% for art_style in site.data.art_styles %}
-                        <li class="category"><a href="{{ art_style.href }}" title="{{ art_style.name }}">{{ art_style.name }}</a></li>
+                        <li class="category"><a href="/arte_estilo{{ art_style.href }}" title="{{ art_style.name }}">{{ art_style.name }}</a></li>
                         {% endfor %}
                       </ul>
                     </li>
@@ -39,7 +39,7 @@
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_91203835">
                          {% for artist in site.data.artists %}
                           <li class="manufacturer">
-                             <a href="{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>
+                             <a href="artistas/{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>
                           </li>
                         {% endfor %}
                       </ul>
