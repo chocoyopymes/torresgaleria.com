@@ -21,38 +21,38 @@
                 <div class="top_menu top-level tmmegamenu_item">
                   <div class="menu-title tmmegamenu_item text-center">Menu</div>
                   <ul class="menu clearfix top-level-menu tmmegamenu_item">
-                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/tecnicas">Técnicas</a>
+                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/techniques">Técnicas</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
-                        {% for technique in site.data.techniques %}
-                        <li class="category"><a href="/tecnicas{{ technique.href }}" title="{{ technique.name }}">{{ technique.name }}</a></li>
+                        {% for technique in site.data.technique %}
+                        <li class="category"><a href="/technique{{ technique.href }}" title="{{ technique.name }}">{{ technique.name }}</a></li>
                         {% endfor %}
                       </ul>
                     </li>
                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/arte_y_estilo/">Arte y estilo</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
-                        {% for art_style in site.data.art_styles %}
-                        <li class="category"><a href="/arte_estilo{{ art_style.href }}" title="{{ art_style.name }}">{{ art_style.name }}</a></li>
+                        {% for art-style in site.data.art-style %}
+                        <li class="category"><a href="/art-style{{ art-style.href }}" title="{{ art-style.name }}">{{ art-style.name }}</a></li>
                         {% endfor %}
                       </ul>
                     </li>
-                    <li class=" simple top-level-menu-li tmmegamenu_item it_91203835"><a class="it_91203835 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/artistas/">Artistas</a>
+                    <li class=" simple top-level-menu-li tmmegamenu_item it_91203835"><a class="it_91203835 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/artists/">Artistas</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_91203835">
-                         {% for artist in site.data.artists %}
+                         {% for artist in site.data.artist %}
                           <li class="manufacturer">
-                             <a href="artistas/{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>
+                             <a href="/artist{{ artist.href }}" title="{{ artist.name }}">{{ artist.name }}</a>
                           </li>
                         {% endfor %}
                       </ul>
                     </li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/artesanias/">Artesanias</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/arte_peruano/">Arte Peruano</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/detalles/">Detalles</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/esculturas/">Esculturas</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/eventos/">Eventos</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/servicios/">Servicios</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/disponibilidad/">Disponibilidad</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/nosotros/">Nosotros</a></li>
-                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/contacto/">Contacto</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/artesanias">Artesanias</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/arte_peruano">Arte Peruano</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/detalles">Detalles</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/esculturas">Esculturas</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/eventos">Eventos</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/servicios">Servicios</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/disponibilidad">Disponibilidad</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/nosotros">Nosotros</a></li>
+                    <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="{{ site.url}}/contacto">Contacto</a></li>
                   </ul>
 
                 </div>

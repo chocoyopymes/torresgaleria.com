@@ -6,6 +6,36 @@ Product list Styles
 * @description  This section holds specific style redeclarations for some
 *               of common elements in page listing
 */
+
+p.product-desc {
+  text-transform: capitalize !important;
+}
+.product img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+p.product-desc span {
+  text-transform: capitalize !important;
+}
+
+.product h5 {
+  font: 700 22px/1.36 "Hind", "Open Sans", sans-serif !important;
+  color: #1d1d1d !important;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 ul.product_list .color-list-container {
   margin-bottom: 12px; }
   ul.product_list .color-list-container ul {

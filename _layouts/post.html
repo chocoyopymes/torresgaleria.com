@@ -1,34 +1,35 @@
 ---
 layout: page
 ---
-<div class="post-content" itemprop="articleBody">
-<h2>{{ post.title}}</h2>
-<h3>{{ post.tec}}</h3>
-<h4>{{ post.author}}</h4>
-<p><img src="{{ post.image}}" alt="" width="100%" height="auto"></p>
-</div>
-
-<!--
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<div class="row">
+  <div class="col-md-8 col-sm-12">
+    <img src="{{ page.image}}" alt="" width="100%" height="auto">
   </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-</article>
--->
+  <div class="col-md-4 col-sm-12">
+    <div class="post-info">
+      <h2>{{ page.title}}</h2>
+      <hr>
+      <h3>Descripción:</h3>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <h3>Autor:</h3>
+      <p><a href="/artist/{{ page.authorslug }}" >{{ page.author}}</a></p>
+      <h3>Técnica:</h3>
+      <p>{{ page.technique}}</p>
+      <h3>Estilo:</h3>
+      <p>{{ page.style}}</p>
+      <h3>Medidas:</h3>
+      <p>{{ page.measure}}</p>
+      <h5>*Disponible</h5>
+      <span>Para más información usa <a href="{{ site.url}}/contacto/"> este formulario de contacto</a></span>
+    </div>
+  </div>
+</div>
+<!-- end center infos-->
+{% include products.html %}
+<!--
+<div class="post-content" itemprop="articleBody">
+<h2>{{ page.title}}</h2>
+<h3>{{ page.tec}}</h3>
+<h4>{{ page.author}}</h4>
+<p><img src="{{ page.image}}" alt="" width="100%" height="auto"></p>
+</div> -->

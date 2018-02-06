@@ -1,15 +1,15 @@
 - name: 'Evento 1'
-  image: '/assets/img/001.jpg'
+  image: '/assets/img/oo1.jpg'
   href: ''
   desc: 'Alguna descripción'
   tag: promo
 - name: 'Evento 2'
-  image: '/assets/img/002.jpg'
+  image: '/assets/img/oo2.jpg'
   href: ''
   desc: 'Alguna descripción'
   tag: promo
 - name: 'Evento 3'
-  image: '/assets/img/002.jpg'
+  image: '/assets/img/oo2.jpg'
   href: ''
   desc: 'Alguna descripción'
   tag: promo
