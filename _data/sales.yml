@@ -1,15 +1,10 @@
-- name: 'Oferta 1'
-  image: '/assets/img/oo1.jpg'
+- name: 'Pinturas'
+  image: '/assets/img/ofertaobra-3.jpg'
   href: ''
-  desc: '50% off en pinturas'
+  desc: ''
   tag: promo
-- name: 'Oferta 2'
-  image: '/assets/img/oo2.jpg'
+- name: 'Peruano'
+  image: '/assets/img/peru-001.jpg'
   href: ''
-  desc: '2x1 en gifts'
-  tag: promo
-- name: 'Oferta 3'
-  image: '/assets/img/oo2.jpg'
-  href: ''
-  desc: 'Alguna descripción'
+  desc: ''
   tag: promo

@@ -1,0 +1,10 @@
+- name: 'Arte y vino'
+  image: '/assets/img/ayv-01.jpg'
+  href: '/art_and_wine'
+  desc: 'Alguna descripción'
+  tag: promo
+- name: 'Sábado de Arte Kids'
+  image: '/assets/img/kids-001.jpg'
+  href: '/art_kids'
+  desc: 'Alguna descripción'
+  tag: promo

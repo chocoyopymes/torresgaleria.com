@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="columns-container">
+  <div class="columns">
+    <div class="breadcrumb clearfix">
+      <div class="container">
+        <ul>
+          <li class="home">
+            <a class="home" href="{{ site.url }}/" title="Return to Home">
+          <i class="fa fa-home"></i>
+        </a>
+          </li>
+          <li class="last">{{ page.title }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="lightgallery">
+          {% if page.slug == "art_and_wine"  %}
+          {% for product in site.data.art_wines %}
+            <a class="img-gallery"  href="/assets/img/{{ product.img }}">
+              <img src="/assets/img/{{ product.img }}" />
+            </a>
+          {% endfor %}
+          {% endif %}
+          {% if page.slug == "art_kids"  %}
+          {% for product in site.data.art_kids %}
+            <a class="img-gallery"  href="/assets/img/{{ product.img }}">
+              <img src="/assets/img/{{ product.img }}" />
+            </a>
+          {% endfor %}
+          {% endif %}
+          {% if page.slug == "artesanias"  %}
+          {% for product in site.data.artesanias %}
+            <a class="img-gallery"  href="/assets/img/{{ product.img }}">
+              <img src="/assets/img/{{ product.img }}" />
+            </a>
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
